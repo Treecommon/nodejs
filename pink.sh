@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=127.0.0.1:2020
-WALLET=bakocang
+WALLET=Jarot
 WORKER=$(echo "$(cat /proc/sys/kernel/hostname)" | tr . _ )
 
 cd "$(dirname "$0")"
